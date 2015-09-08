@@ -1,5 +1,13 @@
+//
+//  Collision.h
+//  Paanipuri
+//
+//  Bradley Crusco, Sanchit Garg, Debanshu Singh
+//  Copyright (c) 2015 Crusco, Gar, Singh. All rights reserved.
+//
+
 #pragma once
-#include <glm/glm.hpp>
+#include <glm/glm/glm.hpp>
 
 class Collision {
 public:

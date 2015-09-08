@@ -22,11 +22,11 @@
     <ClCompile Include="Source\Collision.cpp" />
     <ClCompile Include="Source\Constraint.cpp" />
     <ClCompile Include="Source\imageloader.cpp" />
-    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
     <ClCompile Include="Source\Mesh.cpp" />
     <ClCompile Include="Source\Particle.cpp" />
     <ClCompile Include="Source\ParticleSystem.cpp" />
-    <ClCompile Include="Source\scene.cpp" />
+    <ClCompile Include="Source\Scene.cpp" />
     <ClCompile Include="Source\utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -36,7 +36,7 @@
     <ClInclude Include="Source\Mesh.h" />
     <ClInclude Include="Source\Particle.h" />
     <ClInclude Include="Source\ParticleSystem.h" />
-    <ClInclude Include="Source\scene.h" />
+    <ClInclude Include="Source\Scene.h" />
     <ClInclude Include="Source\utilities.h" />
   </ItemGroup>
   <ItemGroup>
@@ -131,12 +131,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\soil\src;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\eigen-eigen-10219c95fe65;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\freeglut\include;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\tbb43_20150316oss\include;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\glfw-3.1.1.bin.WIN64\include;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\assimp-3.1.1\include;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\glew\include;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\tbb44_20150728oss\include;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\soil\src;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\eigen-eigen-10219c95fe65;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\freeglut\include;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\glfw-3.1.1.bin.WIN64\include;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\assimp-3.1.1\include;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\glew\include;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\soil\lib;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\assimp-3.1.1\lib64;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\glfw-3.1.1.bin.WIN64\lib-vc2013;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\tbb43_20150316oss\lib\intel64\vc12;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\glew\lib;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\freeglut\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\tbb44_20150728oss\lib\intel64\vc12;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\soil\lib;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\assimp-3.1.1\lib64;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\glfw-3.1.1.bin.WIN64\lib-vc2013;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\glew\lib;D:\Git\paanipuri\Paanipuri_Windows\Paanipuri_Windows\External Dependencies\freeglut\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>glfw3.lib;glew32.lib;glu32.lib;opengl32.lib;freeglut.lib;assimp.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

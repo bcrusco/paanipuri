@@ -27,9 +27,6 @@
     <ClCompile Include="Source\imageloader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Mesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -39,10 +36,13 @@
     <ClCompile Include="Source\ParticleSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\scene.cpp">
+    <ClCompile Include="Source\utilities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\utilities.cpp">
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -65,10 +65,10 @@
     <ClInclude Include="Source\ParticleSystem.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\scene.h">
+    <ClInclude Include="Source\utilities.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\utilities.h">
+    <ClInclude Include="Source\Scene.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
